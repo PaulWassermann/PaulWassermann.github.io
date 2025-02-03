@@ -1,0 +1,8 @@
+.elevated-anim {
+    transition: transform ease 0.2s, box-shadow ease 0.2s;
+}
+
+.elevated-anim:hover {
+    box-shadow: 5px 5px 15px rgb(34, 34, 50, 0.1);
+    transform: scale(1.1, 1.1);
+}

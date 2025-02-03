@@ -1,0 +1,140 @@
+
+body {
+    background-color: rgb(34, 34, 50);
+    text-align: center;
+}
+
+a {
+    all: unset;
+}
+
+#main-div {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+header p {
+    text-align: justify;
+}
+
+#page-title {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    height: 150px;
+    justify-self: center;
+    width: 150px;
+}
+
+#language-flags {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+#language-flags img {
+    box-shadow: 5px 5px 10px rgb(34, 34, 50, 0.2);
+    cursor: pointer; 
+}
+
+#projects {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+#projects-title {
+    margin-bottom: 40px;
+}
+
+#projects-thumbnails {
+    align-items: stretch;
+    display: grid;
+    gap: 40px 8%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.2fr));
+    justify-content: center;
+}
+
+.image-placeholder {
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.project-thumbnail {
+    align-items: center;
+    background-color: rgb(229, 229, 255);
+    box-shadow: 5px 5px 10px rgba(34, 34, 50, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column nowrap;
+    left: -10px;
+    min-width: 200px;
+    padding: 10px;
+    position: relative;
+    top: 0; 
+}
+
+.project-name {
+    font-weight: 500;
+}
+
+.project-short-description {
+    margin-bottom: 0;
+    font-style: oblique;
+}
+
+footer {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+address p {
+    font-style: normal;
+}
+
+address img {
+    cursor: pointer;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 30px;
+}
+
+@media screen and (width <= 690px) {
+    #burger-menu-sidebar {
+        display: block;
+    }
+}
+
+@media screen and (width > 690px) {
+    #burger-menu-sidebar {
+        display: none;
+    }
+}
