@@ -15,7 +15,7 @@ usa_flag.onclick = () => {
     french_flag.style.display = "block";
 }
 
-if (storage.getItem("language") || "fr-FR") {
+if ((storage.getItem("language") || "fr-FR") === "fr-FR") {
     french_flag.style.display = "none";
 } else {
     usa_flag.style.display = "none";
@@ -24,7 +24,7 @@ if (storage.getItem("language") || "fr-FR") {
 // TODO : handle the case where localization is not properly initialized
 if (!storage.getItem("text_data")) {
     // fetch("https://PaulWassermann.github.io/localization/text.json").then(
-    fetch("https://raw.githubusercontent.com/PaulWassermann/PaulWassermann.github.io/refs/heads/main/localization/text.json").then(
+    fetch("https://raw.githubusercontent.com/PaulWassermann/PaulWassermann.github.io/refs/heads/develop/localization/text.json").then(
         response => response.json()
     ).then(
         response => {

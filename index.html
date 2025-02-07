@@ -1,30 +1,42 @@
 <!doctype html>
 <html lang="fr-FR">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
 
     <title>Paul Wassermann</title>
 </head>
+
 <body>
-    <div id="main-div">
+    <div class="main-div">
+        <!-- TODO : Set aria-label for links -->
         <!-- TODO : Set default values for each element in case translation is not available -->
         <!-- TODO : Add darkmode -->
         <header>
-            <h1 id="page-title" class="localize"></h1>
+            <h1 id="page-title" class="localize"></h1>  
             <img id="profile-picture" class="localize" alt="Pepe the Frog GIF" src="./images/pepe-the-frog.gif"/>
-            <p id="personal-description" class="localize"></p>
-            <p id="page-description" class="localize"></p>
             <aside id="language-flags">
                 <img id="french-flag" class="elevated-anim localize" alt="French flag" src="./images/french-flag.png" width="50px" />
                 <img id="usa-flag" class="elevated-anim localize" alt="USA flag" src="./images/usa-flag.png" width="50px" />
             </aside>
-            <div id="technologies">
+            <section>
+                <h2>Qui suis-je ?</h2>
+                <p id="personal-description" class="localize"></p>
+            </section>
 
-            </div>
+            <section>
+                <h2>Pourquoi ce site ?</h2>
+                <p id="page-description" class="localize"></p>
+            </section>
+
+            <section id="technologies">
+
+            </section>
         </header>
 
         <main id="projects">
@@ -33,7 +45,9 @@
             <div id="projects-thumbnails">
                 <section>
                     <a class="project-thumbnail elevated-anim" rel="link" href="./pages/deep_learner.html">
-                        <div class="image-placeholder"></div>
+                        <div class="thumbnail-img-container">
+                            <img class="thumbnail-img" src="./images/deep-learner-logo.png" width="547px" height="505px" />
+                        </div>
                         <h3 class="project-name">Deep Learner</h3>
                         <p id="deep-learner-description" class="project-short-description localize"></p>
                     </a>
@@ -41,7 +55,9 @@
 
                 <section>
                     <a class="project-thumbnail elevated-anim" rel="link" href="./pages/array_c.html">
-                        <div class="image-placeholder"></div>
+                        <div class="thumbnail-img-container">
+                            <img class="thumbnail-img" src="./images/array-c-logo.png" width="689px" height="689px" />
+                        </div>
                         <h3 class="project-name">Array.c</h3>
                         <p id="array-c-description" class="project-short-description localize"></p>
                     </a>
@@ -49,7 +65,9 @@
 
                 <section>
                     <a class="project-thumbnail elevated-anim" rel="link" href="./pages/tokenizer_py.html">
-                        <div class="image-placeholder"></div>
+                        <div class="thumbnail-img-container">
+                            <img class="thumbnail-img" src="./images/tokenizer-py-logo.png" width="481px" height="139px"/>
+                        </div>
                         <h3 class="project-name">Tokenizer.py</h3>
                         <p id="tokenizer-py-description" class="project-short-description localize"></p>
                     </a>
@@ -57,7 +75,9 @@
 
                 <section>
                     <a class="project-thumbnail elevated-anim" rel="link" href="./pages/geodataprocessing.html">
-                        <div class="image-placeholder"></div>
+                        <div class="thumbnail-img-container">
+                            <img class="thumbnail-img" src="./images/geodataprocessing-logo.png" width="895px" height="767px"/>
+                        </div>
                         <h3 class="project-name">GeoDataProcessing</h3>
                         <p id="geodataprocessing-description" class="project-short-description localize"></p>
                     </a>
@@ -65,7 +85,9 @@
 
                 <section>
                     <a class="project-thumbnail elevated-anim" rel="link" href="./pages/smart_schedule.html">
-                        <div class="image-placeholder"></div>
+                        <div class="thumbnail-img-container">
+                            <img class="thumbnail-img" src="./images/smart-schedule-logo.png" width="475px" height="484px"/>
+                        </div>
                         <h3 class="project-name">Smart Schedule</h3>
                         <p id="smart-schedule-description" class="project-short-description localize"></p>
                     </a>
@@ -76,10 +98,10 @@
         <footer>
             <address>
                 <p id="my-links" class="localize">Mes liens :</p>
-                <a id="github-link" href="https://github.com/PaulWassermann">
+                <a id="github-link" href="https://github.com/PaulWassermann" target="_blank">
                     <img id="github-logo" class="localize" src="./images/github-logo.png" />
                 </a>
-                <a id="linkedin-link" href="https://www.linkedin.com/in/paul-wassermann/">
+                <a id="linkedin-link" href="https://www.linkedin.com/in/paul-wassermann/" target="_blank">
                     <img id="linkedin-logo" class="localize" src="./images/linkedin-logo.png" />
                 </a>
             </address>
@@ -89,4 +111,5 @@
 
     <script src="scripts/localization.js"></script>
 </body>
+
 </html>

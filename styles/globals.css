@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(34, 34, 50);
+    text-align: center;
+}
+
+a {
+    all: unset;
+}
+
+.main-div {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

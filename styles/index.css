@@ -1,24 +1,12 @@
-
-body {
-    background-color: rgb(34, 34, 50);
-    text-align: center;
-}
-
-a {
-    all: unset;
-}
-
-#main-div {
-    background-color: white;
-    border-radius: 10px 10px 10px 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
 header {
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
+}
+
+header section {
+    justify-self: center;
+    width: 60%;
 }
 
 header p {
@@ -39,7 +27,7 @@ header p {
 
 #language-flags {
     position: absolute;
-    right: 20px;
+    right: calc(0.5% + 20px);
     top: 30px;
 }
 
@@ -68,10 +56,13 @@ header p {
     justify-content: center;
 }
 
-.image-placeholder {
-    background-color: blueviolet;
+.thumbnail-img-container {
+    align-items: center;
+    /* background-color: white; */
     border-radius: 5px;
+    display: flex;
     height: 200px;
+    justify-content: center;
     width: 200px;
 }
 
@@ -88,6 +79,14 @@ header p {
     padding: 10px;
     position: relative;
     top: 0; 
+}
+
+.thumbnail-img {
+    border-radius: 5px;
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width: auto;
 }
 
 .project-name {
