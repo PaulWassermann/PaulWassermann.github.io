@@ -1,0 +1,90 @@
+{
+    "about-me": {
+        "en-US": "About me",
+        "fr-FR": "À propos de moi"
+    },
+    "about-my-website": {
+        "en-US": "About my website",
+        "fr-FR": "À propos de mon site"
+    },
+    "array-c-description": {
+        "en-US": "A C library for scientific computing on multi-dimensional arrays.",
+        "fr-FR": "Une librairie de calculs sur des tableaux multi-dimensionnels en C."
+    },
+    "array-c-thumbnail": {
+        "en-US": "Array.c logo. It shows six cubes in a diagonal. Each cube contains a letter from 'array', and the sixth contains '.c'.",
+        "fr-FR": "Logo de Array.c. Représente 6 cubes disposés diagonalement, chaque cube contenant une lettre de 'array', et le dernier contenant '.c'."
+    },
+    "deep-learner-description": {
+        "en-US": "A deep learning framework to build and train AI models.",
+        "fr-FR": "Un framework de deep learning pour construire et entraîner des modèles d'IA."
+    },
+    "deep-learner-thumbnail": {
+        "en-US": "",
+        "fr-FR": ""
+    },
+    "french-flag": {
+        "en-US": "French flag. Click to change website language to French.",
+        "fr-FR": "Drapeau français. Cliquez pour changer la langue du site en français."
+    },
+    "geodataprocessing-description": {
+        "en-US": "A Windows application to postprocess experimental data.",
+        "fr-FR": "Une application Windows pour le traitement de données d'expérimentation."
+    },
+    "geodataprocessing-thumbnail": {
+        "en-US": "GeoDataProcessing logo. It represents a pile of three small grey rocks in a pyramidal shape.",
+        "fr-FR": "Logo de GeoDataProcessing. Représente un entassement de 3 petites roches grises, disposées en pyramide."
+    },
+    "github-logo": {
+        "en-US": "GitHub logo. Click to go my GitHub page.",
+        "fr-FR": "Logo GitHub. Cliquer pour aller sur ma page GitHub."
+    },
+    "linkedin-logo": {
+        "en-US": "LinkedIn logo. Click to go my LinkedIn profile.",
+        "fr-FR": "Logo LinkedIn. Cliquer pour aller sur mon profil GitHub."
+    },
+    "moon-img": {
+        "en-US": "Crescent moon image. Click to change website color theme to light mode.",
+        "fr-FR": "Image de croissant de lune. Cliquer pour changer les couleurs du site en mode clair."
+    },
+    "my-links": {
+        "en-US": "My links:",
+        "fr-FR": "Mes liens :"
+    },
+    "page-description": {
+        "en-US": "I made this website to give more visibility to my projects, although they are also available on my GitHub.",
+        "fr-FR": "Ce site sert de vitrine pour mes projets, bien qu'ils soient également disponible sur mon GitHub."
+    },
+    "page-title": {
+        "en-US": "Welcome to my website !",
+        "fr-FR": "Bienvenue sur mon site !"
+    },
+    "personal-description": {
+        "en-US": "Hi and welcome ! I'm Paul Wassermann, I have been working as a data scientist since 2022, but I have been interested in software development for almost 10 years. On my free time, I take on small-scale projects as a way to teach myself new concepts or technologies.",
+        "fr-FR": "Bonjour et bienvenue ! Je suis Paul Wassermann, je travaille en tant que data scientist depuis 2022, mais je suis intéressé depuis presque 10 ans par le développement logiciel. Je profite donc de mon temps libre pour mener des projets de petite envergure, qui me permettent de me former et continuer à apprendre de nouveaux concepts ou technologies."
+    },
+    "profile-picture": {
+        "en-US": "Happy Pepe the frog GIF.",
+        "fr-FR": "GIF Pepe la grenouille heureux"
+    },
+    "projects-title": {
+        "en-US": "My Projects",
+        "fr-FR": "Mes Projets"
+    },
+    "smart-schedule-description": {
+        "en-US": "A Windows application using face recognition to provide users their schedule.",
+        "fr-FR": "Une application Windows utilisant la reconnaissance faciale."
+    },
+    "sun-img": {
+        "en-US": "Sun image. Click to change website color theme to dark mode.",
+        "fr-FR": "Image de soleil. Cliquer pour changer les couleurs du site en mode sombre."
+    },
+    "tokenizer-py-description": {
+        "en-US": "A Python package exploring tokenization for Natural Language Processing.",
+        "fr-FR": "Un package Python de tokenisation pour le Traitement du Langage Naturel."
+    },
+    "usa-flag": {
+        "en-US": "USA flag. Click to change website language to English.",
+        "fr-FR": "Drapeau américain. Cliquez pour changer la langue du site en anglais."
+    }
+}
