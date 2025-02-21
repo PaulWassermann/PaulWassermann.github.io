@@ -1,7 +1,7 @@
 {
     "name": "paul_wassermann_website",
     "version": "1.0.0",
-    "description": "Not a proper NPM package, a personal website to showcase my projects.",
+    "description": "Not an NPM package, a personal website to showcase my projects.",
     "author": {
         "name": "Paul Wassermann"
     }
