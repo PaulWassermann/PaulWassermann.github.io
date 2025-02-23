@@ -32,6 +32,10 @@ function setTheme(theme) {
     for (let element of elements) {
         element.classList.remove(old_theme);
         element.classList.add(theme);
+
+        if (element.id == "github-logo") {
+            element.src = `./static/images/github-logo-${theme}-mode.png`;
+        }
     }
 }
 
