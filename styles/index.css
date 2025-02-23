@@ -31,12 +31,6 @@ section.text-block {
     }
 }
 
-@media screen and (max-width: 1000px) {
-    section.text-block {
-        width: 80%;
-    }
-}
-
 #projects-title {
     margin-bottom: 40px;
     margin-top: 60px;
@@ -117,4 +111,31 @@ section.text-block {
 .project-short-description {
     margin-bottom: 0;
     font-style: oblique;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    section.text-block {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #projects-thumbnails {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 0.2fr));
+    }
+
+    .project-thumbnail {
+        min-width: 160px;
+    }
+
+    .thumbnail-img-container {
+        height: 160px;
+        width: 160px;
+    }
+
+    .thumbnail-img {
+        max-height: 140px;
+        max-width: 140px;
+    }
 }
