@@ -31,6 +31,12 @@ section.text-block {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    section.text-block {
+        width: 80%;
+    }
+}
+
 #projects-title {
     margin-bottom: 40px;
     margin-top: 60px;
