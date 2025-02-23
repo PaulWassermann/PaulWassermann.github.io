@@ -178,10 +178,10 @@ address {
 #copyright-and-version {
     display: inline-flex;
     & p {
-        color: rgb(160, 160, 160);
-    }
-    & p {
         color: rgb(120, 120, 120);
+    }
+    & p.dark {
+        color: rgb(160, 160, 160);
     }
     & a {
         cursor: pointer;
