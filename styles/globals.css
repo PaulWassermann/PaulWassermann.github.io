@@ -199,3 +199,13 @@ address {
         color: rgb(224, 224, 224);
     }
 }
+
+@media screen and (max-width: 400px) {
+    #theme-toggle-button-container {
+        left: 5px;
+    }
+
+    #language-flags {
+        right: 5px;
+    }
+}
