@@ -7,6 +7,14 @@
         "en-US": "About my website",
         "fr-FR": "À propos de mon site"
     },
+    "accessibility-title": {
+        "en-US": "Accessibility",
+        "fr-FR": "Accessibilité"
+    },
+    "accessibility-paragraph": {
+        "en-US": "The site is accessible to the visually impaired and blind. If you have any accessibility issues or suggestions for improvement, please contact me on LinkedIn.",
+        "fr-FR": "Le site est accessible pour les personnes malvoyantes et non-voyantes. En cas de problème d'accessibilité ou pour toute suggestion d'amélioration, merci de me contacter sur LinkedIn."
+    },
     "array-c-description": {
         "en-US": "A C library for scientific computing on multi-dimensional arrays.",
         "fr-FR": "Une librairie de calculs sur des tableaux multi-dimensionnels en C."
@@ -75,6 +83,10 @@
         "en-US": "A Windows application using face recognition to provide users their schedule.",
         "fr-FR": "Une application Windows utilisant la reconnaissance faciale."
     },
+    "smart-schedule-thumbnail": {
+        "en-US": "Smart Schedule logo. It represents a calendar with an eye, alluding to the facial recognition functionnality in the application.",
+        "fr-FR": "Logo de Smart Schedule. Représente un calendrier avec un oeil, faisant écho à la fonctionnalité de reconnaissance faciale de l'application."
+    },
     "sun-img": {
         "en-US": "Sun image. Click to change website color theme to dark mode.",
         "fr-FR": "Image de soleil. Cliquer pour changer les couleurs du site en mode sombre."
@@ -82,6 +94,10 @@
     "tokenizer-py-description": {
         "en-US": "A Python package exploring tokenization for Natural Language Processing.",
         "fr-FR": "Un package Python de tokenisation pour le Traitement du Langage Naturel."
+    },
+    "tokenizer-py-thumbnail": {
+        "en-US": "Tokenizer.py logo. It represents the project name, Tokenizer.py, crossed and cut by the 2 yellow and blue snakes respectively of the Python language logo.",
+        "fr-FR": "Logo de Tokenizer.py. Représente le nom du projet, Tokenizer.py, parcouru et découpé par les 2 serpents jaune et bleu respectivement du logo du langage Python."
     },
     "usa-flag": {
         "en-US": "USA flag. Click to change website language to English.",

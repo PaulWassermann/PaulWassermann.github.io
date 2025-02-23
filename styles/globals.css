@@ -78,6 +78,7 @@ a {
         position: absolute;
         top: 2px;
         transition: opacity ease 0.2s, transform ease 0.4s;
+        -webkit-user-select: none;
         user-select: none;
         width: auto;
     }
@@ -149,12 +150,6 @@ a {
     }
 }
 
-/* @media screen and (min-width: 2000px) {
-    #language-flags {
-        position: sticky;
-        right: 
-    }
-} */
 /* Footer */
 footer {
     border-radius: 0 0 10px 10px;
