@@ -15,7 +15,9 @@ if (!storage.getItem("theme")) {
     setTheme(storage.getItem("theme"));
 }
 
-toggle_button_container.onclick = toggleTheme;
+if (toggle_button_container) {
+    toggle_button_container.onclick = toggleTheme;
+}
 
 function setTheme(theme) {
     let elements = document.getElementsByClassName("themable");
@@ -23,11 +25,13 @@ function setTheme(theme) {
 
     storage.setItem("theme", theme);
 
-    sun_img.style.opacity = (theme === "light") ? 1 : 0;
-    moon_img.style.opacity = (theme === "dark") ? 1 : 0;;
+    if (toggle_button) {
+        sun_img.style.opacity = (theme === "light") ? 1 : 0;
+        moon_img.style.opacity = (theme === "dark") ? 1 : 0;
 
-    toggle_button.classList.remove(old_theme);
-    toggle_button.classList.add(theme);
+        toggle_button.classList.remove(old_theme);
+        toggle_button.classList.add(theme);    
+    }
 
     for (let element of elements) {
         element.classList.remove(old_theme);

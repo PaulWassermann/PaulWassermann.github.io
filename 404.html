@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<header>
+<html lang="fr-FR">
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/404.css" />
 
     <title>Paul Wassermann 404</title>
-</header>
+</head>
+
 <body>
-    <div id="main-div">
-        <h1>ERROR 404: sorry, the page you are looking for does not exist !</h1>
-        <img alt="Sad Pepe the Frog" src="./static/images/sad-pepe.png" width="300"/>
+    <div id="main-div" class="themable">
+        <main>
+            <h1 class="localize">ERROR 404</h1>
+            <h2 class="localize">Sorry, the page you are looking for does not exist !</h2>
+            <img alt="Sad Pepe the Frog" src="./static/images/sad-pepe.png"/>
+        </main>
+
+        <footer>
+            <div id="copyright-and-version">
+                <p class="themable">© Paul Wassermann, 2025 |
+                    <a href="./CHANGELOG.md" class="themable" target="_blank">
+                        Version :<span id="version"></span>
+                    </a>
+                </p>
+            </div>
+        </footer>
     </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/theme.js"></script>
 </body>
 </html>

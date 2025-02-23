@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#main-div {
+    height: 100%;
+    margin: 10px;
+    width: fit-content;
+    &.dark {
+        background-color: rgb(31, 31, 31);
+        color: rgb(224, 224, 224);
+    }
+}
+
+main {
+    margin-top: 25%;
+}
+
+main h2 {
+    max-width: 80%;
+    justify-self: center;
+}
+
+main img {
+    height: auto;
+    width: 300px;
+}
+
+footer {
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+}

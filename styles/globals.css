@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     font-family: monospace;
     justify-content: center;
+    margin: 10px;
     text-align: center;
 }
 
@@ -22,9 +23,9 @@ a {
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     color: rgb(31, 31, 31);
+    /* margin: 10px; */
     max-width: 2000px;
     padding-bottom: 10px;
-    padding-top: 10px;
     position: relative;
     width: 100%;
     &.themable {
