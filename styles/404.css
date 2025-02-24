@@ -3,10 +3,13 @@ html, body {
     margin: 0;
 }
 
-#main-div {
-    height: 100%;
+body {
     margin: 10px;
-    width: fit-content;
+}
+
+#main-div {
+    height: 98%;
+    padding-bottom: 0;
     &.dark {
         background-color: rgb(31, 31, 31);
         color: rgb(224, 224, 224);
@@ -14,7 +17,7 @@ html, body {
 }
 
 main {
-    margin-top: 25%;
+    margin-top: 25vh;
 }
 
 main h2 {

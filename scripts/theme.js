@@ -1,5 +1,7 @@
 import { storage } from "./globals.js";
 
+let themable_elements = document.getElementsByClassName("themable");
+
 let toggle_button_container = document.getElementById("theme-toggle-button-container");
 let toggle_button = document.getElementById("theme-toggle-button");
 let sun_img = document.getElementById("sun-img");
@@ -20,7 +22,6 @@ if (toggle_button_container) {
 }
 
 function setTheme(theme) {
-    let elements = document.getElementsByClassName("themable");
     let old_theme = (theme === "light") ? "dark": "light";
 
     storage.setItem("theme", theme);
@@ -30,10 +31,10 @@ function setTheme(theme) {
         moon_img.style.opacity = (theme === "dark") ? 1 : 0;
 
         toggle_button.classList.remove(old_theme);
-        toggle_button.classList.add(theme);    
+        toggle_button.classList.add(theme);
     }
 
-    for (let element of elements) {
+    for (let element of themable_elements) {
         element.classList.remove(old_theme);
         element.classList.add(theme);
 

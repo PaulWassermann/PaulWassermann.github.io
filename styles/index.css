@@ -46,8 +46,6 @@ section.text-block {
 
 .project-thumbnail {
     align-items: center;
-    background-color: rgb(224, 224, 224);
-    box-shadow: 10px 10px 10px rgba(31, 31, 31, 0.4);
     border-radius: 5px;
     cursor: pointer;
     display: flex;
@@ -62,6 +60,8 @@ section.text-block {
 }
 
 .project-thumbnail.light {
+    background-color: rgb(224, 224, 224);
+    box-shadow: 10px 10px 10px rgba(31, 31, 31, 0.4);
     &.elevated-anim:hover {
         box-shadow: 10px 10px 15px rgb(31, 31, 1, 0.2);
         transform: scale(1.1, 1.1);
