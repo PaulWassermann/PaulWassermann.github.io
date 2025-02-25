@@ -39,7 +39,7 @@ function setTheme(theme) {
         element.classList.add(theme);
 
         if (element.id == "github-logo") {
-            element.src = `./static/images/github-logo-${theme}-mode.png`;
+            element.src = element.src.split("/").slice(0, -1).join("/") + `/github-logo-${theme}-mode.png`;
         }
     }
 }

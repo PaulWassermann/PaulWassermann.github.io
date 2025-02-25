@@ -14,12 +14,22 @@
 <body>
     <div id="main-div" class="themable">
         <main>
-            <h1 class="localize">ERROR 404</h1>
-            <h2 class="localize">Sorry, the page you are looking for does not exist !</h2>
-            <img alt="Sad Pepe the Frog" src="./static/images/sad-pepe.png"/>
+            <h1 id="error-id" class="localize">ERROR 404</h1>
+            <h2 id="error-message" class="localize">Sorry, the page you are looking for does not exist !</h2>
+            <img id="sad-pepe-img" class="localize" alt="Sad Pepe the Frog" src="./static/images/sad-pepe.png"/>
         </main>
 
         <footer>
+            <address>
+                <p id="my-links" class="localize"></p>
+                <a id="github-link" href="https://github.com/PaulWassermann" target="_blank">
+                    <img id="github-logo" class="localize themable" src="./static/images/github-logo-light-mode.png" />
+                </a>
+                <a id="linkedin-link" href="https://www.linkedin.com/in/paul-wassermann/" target="_blank">
+                    <img id="linkedin-logo" class="localize" src="./static/images/linkedin-logo.png" />
+                </a>
+            </address>
+
             <div id="copyright-and-version">
                 <p class="themable">© Paul Wassermann, 2025 |
                     <a href="./CHANGELOG.md" class="themable" target="_blank">
@@ -30,6 +40,7 @@
         </footer>
     </div>
 
+    <script type="module" src="./scripts/localization.js"></script>
     <script type="module" src="./scripts/main.js"></script>
     <script type="module" src="./scripts/theme.js"></script>
     
