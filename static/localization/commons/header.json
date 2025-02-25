@@ -1,0 +1,18 @@
+{
+    "french-flag": {
+        "en-US": "French flag. Click to change website language to French.",
+        "fr-FR": "Drapeau français. Cliquez pour changer la langue du site en français."
+    },
+    "moon-img": {
+        "en-US": "Crescent moon image. Click to change website color theme to light mode.",
+        "fr-FR": "Image de croissant de lune. Cliquer pour changer les couleurs du site en mode clair."
+    },
+    "sun-img": {
+        "en-US": "Sun image. Click to change website color theme to dark mode.",
+        "fr-FR": "Image de soleil. Cliquer pour changer les couleurs du site en mode sombre."
+    },
+    "usa-flag": {
+        "en-US": "USA flag. Click to change website language to English.",
+        "fr-FR": "Drapeau américain. Cliquez pour changer la langue du site en anglais."
+    }
+}
