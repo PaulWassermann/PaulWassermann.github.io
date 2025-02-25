@@ -12,20 +12,6 @@ body {
     padding-bottom: 0;
 }
 
-main {
-    margin-top: 25vh;
-}
-
-main h2 {
-    max-width: 80%;
-    justify-self: center;
-}
-
-main img {
-    height: auto;
-    width: 300px;
-}
-
 footer {
     bottom: 10px;
     position: absolute;
